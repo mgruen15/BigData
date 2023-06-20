@@ -21,7 +21,7 @@ A running Hadoop cluster with YARN (for checkpointing)
 
 ```bash
 helm repo add stable https://charts.helm.sh/stable
-helm install --namespace=default --set hdfs.dataNode.replicas=1 --set yarn.nodeManager.replicas=1 --set hdfs.webhdfs.enabled=true my-hadoop-cluster stable/hadoop
+helm install --namespace=default --set hdfs.dataNode.replicas=1 --set yarn.nodeManager.replicas=1 --set hdfs.webhdfs.enabled=true my-hadoop-cluster stable/hadoop](https://github.com/adavidho/BigData/edit/main/README.md)
 ```
 
 ## Deploy
