@@ -31,7 +31,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 #### Install Minikube
 ```bash
 curl -LO https://github.com/kubernetes/minikube/releases/download/v1.15.0/minikube-linux-x86_64
-sudo install minikube-linux-amd64 /usr/local/bin/minikube
+sudo install minikube-linux-x86_64 /usr/local/bin/minikube
 ```
 
 A running Strimzi.io Kafka operator
