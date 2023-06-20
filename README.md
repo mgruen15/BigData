@@ -30,7 +30,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 #### Install Minikube
 ```bash
-curl -LO https://github.com/kubernetes/minikube/releases/download/v1.15.0/minikube-linux-x86_64
+curl -LO https://storage.googleapis.com/minikube/releases/download/v1.15.0/minikube-linux-amd64.deb
 sudo install minikube-linux-x86_64 /usr/local/bin/minikube
 ```
 
