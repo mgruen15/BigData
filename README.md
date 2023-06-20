@@ -9,6 +9,9 @@
 
 ## Prerequisites
 
+#### Install Minikube
+curl https://github.com/kubernetes/minikube/releases/download/v1.15.0/minikube-linux-x86_64
+
 A running Strimzi.io Kafka operator
 
 ```bash
